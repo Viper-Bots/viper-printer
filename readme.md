@@ -30,21 +30,15 @@ What's included?
 
 This repository contains several Python scripts related to the Viper Printer:
 
-## 1. `printer.py`
-
-This is the printer script, and probably the only file in this repo you need. To specify a PNG image to print, use the `-f` command line argument:
+1. `printer.py` - This is the printer script, and probably the only file in this repo you need. To specify a PNG image to print, use the `-f` command line argument:
 
 ```
 python printer.py -f myimage.png
 ```
 
-## 2. `reset-motors.py`
+2. `reset-motors.py` - Utility script to reset all three motors. 
 
-Utility script to reset all three motors. 
-
-## 3. `read-image.py`
-
-A simple script I wrote to help me understand how the `png` library parses individual PNG images. It iterates over each row of pixels, and prints the data for each pixel to the console. To specify a PNG image, use the `-f` command line argument:
+3. `read-image.py` - A simple script our coach wrote to help him understand how the `png` library parses individual PNG images. It iterates over each row of pixels, and prints the data for each pixel to the console. To specify a PNG image, use the `-f` command line argument:
 
 ```
 python read-image.py -f myimage.png
