@@ -33,8 +33,6 @@ touch __init__.py
 cd ..
 ```
 
-(This is an old fork of pypng, but it does work with Python3 in ev3dev)
-
 5. Now you're ready to try the scripts in this repo.
 
 
@@ -56,6 +54,20 @@ python3 printer.py -f png/cartoon.png
 ```
 python3 read-image.py -f png/cartoon.png
 ```
+
+
+Caveats
+-------
+
+For best results, you need to create your own 1-bit (black and white) PNG images. This can be done using Photoshop, Gimp, or other image editing tools.
+
+The scripts in this repo do NOT convert, color-correct, or optimize PNG images.
+
+
+Notes
+-----
+
+In the future, we may revise `printer.py` to work with the normal `pypng` library, rather than `PurePNG`, which is an old, unsupported fork. 
 
 
 About the Viper Bots
