@@ -1,7 +1,7 @@
-from ev3dev.ev3 import *
+from ev3dev2.motor import *
 import datetime
 import time
-import png
+from purepng import png
 import argparse
 
 
