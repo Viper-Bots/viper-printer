@@ -1,4 +1,4 @@
-from ev3dev.ev3 import *
+from ev3dev2.motor import *
 import datetime
 import time
 import png
@@ -211,6 +211,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-f", "--filename", help="PNG filename")
 	args = parser.parse_args()
+	print(args.filename)
 	if args.filename:
 		try:
 			main(args.filename)
