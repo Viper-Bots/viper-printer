@@ -11,16 +11,29 @@ Learn more about the process of creating the printer by reading [our coach's blo
 How to use this repository
 --------------------------
 
-1. Build your own Viper Printer using this LXF file in Lego Digital Designer or Stud.io: [viper-printer.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/lxf/viper-printer.lxf)
+1. Build your own Viper Printer from Lego parts using this LXF file in Lego Digital Designer or Stud.io: [viper-printer.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/lxf/viper-printer.lxf)
 
-2. Install the [ev3dev](https://www.ev3dev.org/) operating system on your EV3 brick.
+2. [Install the ev3dev](https://www.ev3dev.org/docs/getting-started/) operating system on your EV3 brick. Follow the tutorial to set up networking and SSH access on your brick.
 
-3. Install [Python](https://www.ev3dev.org/docs/programming-languages/) for ev3dev.
+(This repo has been tested using the `ev3dev-stretch-ev3-generic-2020-04-10` version of ev3dev)
 
-4. Launch Python, then install the required modules from `requirements.txt`:
+3. Clone this repo to your brick, then change to the new viper-printer directory:
+
 ```
-pip install -r requirements.txt
+git clone https://github.com/Viper-Bots/viper-printer.git
+cd viper-printer
 ```
+
+4. Install the `PurePNG` 
+
+```
+mkdir purepng; cd purepng
+curl -LO https://raw.githubusercontent.com/Scondo/purepng/master/png/png.py
+touch __init__.py
+cd ..
+```
+
+(This is an old fork of pypng, but it does work with Python3 in ev3dev)
 
 5. Now you're ready to try the scripts in this repo.
 
