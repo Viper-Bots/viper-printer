@@ -1,5 +1,0 @@
-argparse==1.2.1
-evdev==0.4.7
-openrobertalab==1.4.0
-pypng==0.0.18
-python-ev3dev==VERSION
