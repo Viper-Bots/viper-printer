@@ -13,7 +13,7 @@ This repo has been tested with Python 3 and the `ev3dev-stretch-ev3-generic-2020
 How to use this repository
 --------------------------
 
-1. Build your own Viper Printer from Lego parts using this LXF file in Lego Digital Designer or Stud.io: [viper-printer.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/lxf/viper-printer.lxf) (Note: this model requires a large number of parts 3743 and 64179)
+1. Build your own Viper Printer 3.0 from LEGO parts using [viper-printer-3.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/models/viper-printer-3.lxf) in Lego Digital Designer or [viper-printer-3.io](https://github.com/Viper-Bots/viper-printer/blob/main/models/viper-printer-3.io) in Stud.io:  (Note: this model requires a large number of parts 3743 and 64179)
 
 2. [Install the ev3dev](https://www.ev3dev.org/docs/getting-started/) operating system on your EV3 brick. Follow the tutorial to set up networking and SSH access on your brick.
 
@@ -58,7 +58,7 @@ There are two Technic brick/rack stacks. Each one fits inside a sandwich of lift
 
 The longer of these brick/rack stacks serves as the "print head track," with a parallel track of beams underneath it to support the weight of the print head.  These two tracks are separated by a vertical space of two plates.
 
-![Viper printer image](https://github.com/Viper-Bots/viper-printer/blob/main/jpg/printer1-for-repo.jpg)
+![Beam spacing illustration](https://github.com/Viper-Bots/viper-printer/blob/main/jpg/beam-spacing-for-repo.jpg)
 
 Unfortunately this vertical space is _slightly_ smaller than the height of a beam, so Lego Digital Designer and Stud.io will not allow me to build a model where the print head is actually on the print head track. For this reason, the .LXF and .IO files include all the parts, but the print head is shown assembled separately from the print head track. 
 
