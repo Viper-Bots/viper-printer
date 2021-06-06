@@ -1,7 +1,7 @@
-Viper Printer
-=============
+Viper Printer, v1.0
+===================
 
-![Viper printer image](https://github.com/Viper-Bots/viper-printer/blob/main/png/printer-for-repo.png)
+![Viper printer image](https://github.com/Viper-Bots/viper-printer/blob/main/1.0/png/printer-for-repo.png)
 
 In summer 2017, our coach disassembled our EV3 robot ViperEvie and built an EV3-powered dot-matrix printer.
 
@@ -13,15 +13,16 @@ This repo has been updated to work with Python 3 and the `ev3dev-stretch-ev3-gen
 How to use this repository
 --------------------------
 
-1. Build your own Viper Printer from Lego parts using this LXF file in Lego Digital Designer or Stud.io: [viper-printer.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/lxf/viper-printer.lxf)
+1. Build your own Viper Printer from Lego parts using this LXF file in Lego Digital Designer or Stud.io: [viper-printer.lxf](https://github.com/Viper-Bots/viper-printer/blob/main/1.0/lxf/viper-printer.lxf)
 
 2. [Install the ev3dev](https://www.ev3dev.org/docs/getting-started/) operating system on your EV3 brick. Follow the tutorial to set up networking and SSH access on your brick.
 
-3. Clone this repo to your brick, then change to the new viper-printer directory:
+3. Clone this repo to your brick, then change to the new viper-printer 1.0 subdirectory:
 
 ```
 git clone https://github.com/Viper-Bots/viper-printer.git
 cd viper-printer
+cd 1.0
 ```
 
 4. Install the `PurePNG` library.
