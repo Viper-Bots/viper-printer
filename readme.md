@@ -1,5 +1,5 @@
-Viper Printer, v3.0
-===================
+Viper Printer (v3.0), a dot-matrix LEGO EV3 printer
+===================================================
 
 ![Viper printer image](https://github.com/Viper-Bots/viper-printer/blob/main/jpg/printer1-for-repo.jpg)
 
